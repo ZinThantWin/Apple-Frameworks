@@ -20,7 +20,7 @@ struct FrameworkGridView : View {
                 }
             }
             .navigationTitle("👾 Apple")
-            .sheet(isPresented: $viewModel.isSelected, content: {
+            .fullScreenCover(isPresented: $viewModel.isSelected, content: {
                 FrameworkDetail(framework: viewModel.selectedFramework!,isSelected: $viewModel.isSelected)
             })
         }

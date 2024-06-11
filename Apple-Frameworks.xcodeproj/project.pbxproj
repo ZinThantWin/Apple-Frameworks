@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530A5FC92C18A3900056A4C0 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A5FC82C18A3900056A4C0 /* SafariView.swift */; };
 		5334BF192C18133A004D5832 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BF182C18133A004D5832 /* Apple_FrameworksApp.swift */; };
 		5334BF1D2C18133D004D5832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5334BF1C2C18133D004D5832 /* Assets.xcassets */; };
 		5334BF202C18133D004D5832 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5334BF1F2C18133D004D5832 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530A5FC82C18A3900056A4C0 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		5334BF152C18133A004D5832 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5334BF182C18133A004D5832 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
 		5334BF1C2C18133D004D5832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,10 +66,11 @@
 				5334BF2D2C182B31004D5832 /* ui_components */,
 				5334BF2A2C181825004D5832 /* models */,
 				5334BF182C18133A004D5832 /* Apple_FrameworksApp.swift */,
-				5334BF1C2C18133D004D5832 /* Assets.xcassets */,
-				5334BF1E2C18133D004D5832 /* Preview Content */,
 				5334BF282C1814FA004D5832 /* FrameworkGridView.swift */,
 				5334BF302C18355A004D5832 /* FrameworkDetail.swift */,
+				530A5FC82C18A3900056A4C0 /* SafariView.swift */,
+				5334BF1C2C18133D004D5832 /* Assets.xcassets */,
+				5334BF1E2C18133D004D5832 /* Preview Content */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				5334BF292C1814FA004D5832 /* FrameworkGridView.swift in Sources */,
 				5334BF312C18355A004D5832 /* FrameworkDetail.swift in Sources */,
 				5334BF332C18361F004D5832 /* AppButton.swift in Sources */,
+				530A5FC92C18A3900056A4C0 /* SafariView.swift in Sources */,
 				5334BF2C2C18182F004D5832 /* FrameworkModel.swift in Sources */,
 				5368B4792C185C8A00E3B1A5 /* FrameworkGridViewModel.swift in Sources */,
 				5334BF2F2C182B4B004D5832 /* EachGridItem.swift in Sources */,

@@ -5,6 +5,8 @@ import SwiftUI
 struct FrameworkDetail : View {
     let framework : Framework
     @Binding var isSelected: Bool
+    @State private var xPresentingSafariView = false
+    
     var body: some View {
         VStack{
             HStack{
@@ -30,7 +32,9 @@ struct FrameworkDetail : View {
                     .padding()
             }.padding(.vertical, 30)
             Spacer()
-            AppButton(onTap: {},text: "Learn More")
-        }
+            AppButton(onTap: {xPresentingSafariView = true},text: "Learn More")
+        }.fullScreenCover(isPresented: $xPresentingSafariView, content: {
+            SafariView(url: URL(string: framework.urlString) ?? URL(string: "https://example.com")!)
+        })
     }
 }
