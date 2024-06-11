@@ -15,6 +15,7 @@
 		5334BF2F2C182B4B004D5832 /* EachGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BF2E2C182B4B004D5832 /* EachGridItem.swift */; };
 		5334BF312C18355A004D5832 /* FrameworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BF302C18355A004D5832 /* FrameworkDetail.swift */; };
 		5334BF332C18361F004D5832 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BF322C18361F004D5832 /* AppButton.swift */; };
+		5368B4792C185C8A00E3B1A5 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368B4782C185C8A00E3B1A5 /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5334BF2E2C182B4B004D5832 /* EachGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachGridItem.swift; sourceTree = "<group>"; };
 		5334BF302C18355A004D5832 /* FrameworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetail.swift; sourceTree = "<group>"; };
 		5334BF322C18361F004D5832 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		5368B4782C185C8A00E3B1A5 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				5334BF2B2C18182F004D5832 /* FrameworkModel.swift */,
+				5368B4782C185C8A00E3B1A5 /* FrameworkGridViewModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				5334BF312C18355A004D5832 /* FrameworkDetail.swift in Sources */,
 				5334BF332C18361F004D5832 /* AppButton.swift in Sources */,
 				5334BF2C2C18182F004D5832 /* FrameworkModel.swift in Sources */,
+				5368B4792C185C8A00E3B1A5 /* FrameworkGridViewModel.swift in Sources */,
 				5334BF2F2C182B4B004D5832 /* EachGridItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

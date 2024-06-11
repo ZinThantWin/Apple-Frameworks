@@ -4,11 +4,14 @@ import SwiftUI
 
 struct FrameworkDetail : View {
     let framework : Framework
+    @Binding var isSelected: Bool
     var body: some View {
         VStack{
             HStack{
                 Spacer()
-                Button{}label: {
+                Button{
+                   isSelected = false
+                }label: {
                     Image(systemName: "xmark")
                         .foregroundColor(Color(.label))
                         .imageScale(.large)
@@ -30,8 +33,4 @@ struct FrameworkDetail : View {
             AppButton(onTap: {},text: "Learn More")
         }
     }
-}
-
-#Preview {
-    FrameworkDetail(framework: MockData.sampleFramework).preferredColorScheme(.dark)
 }
